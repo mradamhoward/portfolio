@@ -17,6 +17,7 @@ import { LibrariesComponent } from './components/libraries/libraries.component';
 import { AlgoritmsComponent } from './components/algoritms/algoritms.component';
 import { AlgorithmsComponent } from './components/algorithms/algorithms.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ContactComponent } from './components/contact/contact.component';
     LibrariesComponent,
     AlgoritmsComponent,
     AlgorithmsComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
