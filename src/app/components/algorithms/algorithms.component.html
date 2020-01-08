@@ -1,1 +1,37 @@
-<p>algorithms works!</p>
+<h4 class="text-center">Machine Learning Algorithms</h4>
+<p>We will be looking into the following algorithms:</p>
+<ul>
+    <li>Nearest Neighbours</li>
+    <li>Simulated Annealing</li>
+    <li>Naive Bayes</li>
+    <li>Logistic Regression</li>
+    <li>Linear Regression</li>
+</ul>
+<h4>Nearest Neighbours</h4>
+
+<p>KNN is a non-parametric, lazy learning algorithm. Its purpose is to use a database in which the data points are separated into several classes to predict the classification of a new sample point. Just for reference, this is “where” KNN is positioned in the algorithm list of scikit learn.</p>
+<p>KNN can be used for classification — the output is a class membership (predicts a class — a discrete value). An object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors. It can also be used for regression — output is the value for the object (predicts continuous values). This value is the average (or median) of the values of its k nearest neighbors.</p>
+<a href="https://github.com/scikit-learn/scikit-learn/blob/57b30296bbc89c3412025a7acbec0a900be1ad43/sklearn/impute/_knn.py">Nearest Neighbours Source code in scikit on Github</a>
+
+<h4>Simulated Annealing</h4>
+<p>The simulated annealing algorithm was originally inspired from the process of annealing in metal work. Annealing involves heating and cooling a material to alter its physical properties due to the changes in its internal structure. As the metal cools its new structure becomes fixed, consequently causing the metal to retain its newly obtained properties. In simulated annealing we keep a temperature variable to simulate this heating process. We initially set it high and then allow it to slowly 'cool' as the algorithm runs. While this temperature variable is high the algorithm will be allowed, with more frequency, to accept solutions that are worse than our current solution. This gives the algorithm the ability to jump out of any local optimums it finds itself in early on in execution. As the temperature is reduced so is the chance of accepting worse solutions, therefore allowing the algorithm to gradually focus in on a area of the search space in which hopefully, a close to optimum solution can be found. This gradual 'cooling' process is what makes the simulated annealing algorithm remarkably effective at finding a close to optimum solution when dealing with large problems which contain numerous local optimums. The nature of the traveling salesman problem makes it a perfect example.</p>
+
+<h4>Naive Bayes</h4>
+<p>Naive Bayes is a classification technique based on Bayes' Theorem with an assumption of independence among predictors. In simple terms, a Naive Bayes classifier assumes that the presence of a particular feature in a class is unrelated to the presence of any other feature.</p>
+<h4>Logisic Regression</h4>
+<p>Regression is the process of feeding a model with data of past values of a variable, to make a prediction. Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model (a form of binary regression).</p>
+<h4>Linear Regression</h4>
+<p>linear regression is a linear approach to modeling the relationship between a scalar response and one or more explanatory variables.
+    It is used to determine the extent to which there is a linear relationship between a dependent variable and one or more independent variables. ... In simple linear regression a single independent variable is used to predict the value of a dependent variable.
+    Simple linear regression is similar to correlation in that the purpose is to measure to what extent there is a linear relationship between two variables. The major difference between the two is that correlation makes no distinction between independent and dependent variables while linear regression does. In particular, the purpose of linear regression is to "predict" the value of the dependent variable based upon the values of one or more independent variables.
+</p>
+
+<a href="https://github.com/scikit-learn/scikit-learn">These algorithms and more can be found on this link, on Scikit, on Github</a>
+
+<h4>References</h4><ul>
+<li><a href="https://www.geeksforgeeks.org/getting-started-machine-learning/">Machine Learning</a></li>
+<li><a href="https://www.infoworld.com/article/3278008/what-is-tensorflow-the-machine-learning-library-explained.html">Tensorflow</a></li>
+<li><a href="https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/">Naive Bayes</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Logistic_regression">Logistic Regression Wikipedia</a></li>
+<li><a href="https://www.statisticallysignificantconsulting.com/RegressionAnalysis.htm">Linear Regression</a></li>
+</ul>
